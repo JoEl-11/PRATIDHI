@@ -10,6 +10,6 @@ document.getElementById('introVideo').addEventListener('ended', () => {
 document.querySelectorAll('.button').forEach(button => {
     button.addEventListener('click', () => {
         const dayId = button.id;
-        window.location.href = `/templates/${dayId}/${dayId}.html`;
+        window.location.href = '/templates/${dayId}/${dayId}.html';
     });
 });
